@@ -1,6 +1,6 @@
 (function() {
   const isMobile = /Mobi|Android/i.test(navigator.userAgent);
-  const widgetUrl = 'https://chat.tensoftworks.com'; // 실제 Next.js 앱 URL
+  const widgetUrl = 'https://chatbot2-zvbd.vercel.app'; // 실제 Next.js 앱 URL
 
   function init() {
     // Create a wrapper div for the widget at the root level

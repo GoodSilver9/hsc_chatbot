@@ -647,7 +647,7 @@ export default function ChatComponent({ searchParams }) {
             Authorization: `Bearer ${token}`,
           },
           body: JSON.stringify({
-            campus: "suwon",
+            campus: "hsc",
             message: text,
             ...(conversationId ? { conversationId } : {}),
           }),

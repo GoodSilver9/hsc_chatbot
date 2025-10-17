@@ -406,7 +406,7 @@ export default function ChatComponent({ searchParams }) {
   useEffect(() => {
     const handleMessage = (event) => {
       // Only accept from your main site’s domain
-      if (!event.origin.includes("localhost:3000")) return;
+      if (!event.origin.includes("https://lib2.skku.edu/")) return;
 
       if (event.data?.type === "AUTH_TOKEN" && event.data?.token) {
         const token = event.data.token;
